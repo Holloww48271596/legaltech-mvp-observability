@@ -1,0 +1,18 @@
+{
+  "name": "legaltech-mvp-observability",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx src/matter_intake.ts",
+    "test": "node --import tsx src/matter_intake.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
